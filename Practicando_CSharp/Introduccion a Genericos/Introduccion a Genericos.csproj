@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AAC94176-6DEA-433F-A990-4D824C054295}</ProjectGuid>
+    <ProjectGuid>{0FA9CFBB-3C52-4ADF-A5B8-8F49DAE03F4D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practicando_CSharp</RootNamespace>
-    <AssemblyName>Practicando_CSharp</AssemblyName>
+    <RootNamespace>Introduccion_a_Genericos</RootNamespace>
+    <AssemblyName>Introduccion a Genericos</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Params.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ClaseGenerica.cs" />
+    <Compile Include="Introduccion a Genericos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
